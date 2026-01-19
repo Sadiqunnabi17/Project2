@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    line-height: 1.6;
+    background: rgba(26, 11, 46, 1);
+    color: rgb(255, 255, 255);
+}
+
+/* Navbar*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: transparent;
+    
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.logo-wave {
+    background: linear-gradient(
+        90deg,
+        rgb(247, 233, 63),
+        rgb(251, 9, 180),
+        rgb(145, 0, 248)
+  );
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+.btn-gradient {
+    display:inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    background: linear-gradient(
+        90deg,
+        rgb(247, 233, 63),
+        rgb(251, 9, 180),
+        rgb(145, 0, 248)
+  );
+  color: white;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  
+}
+
+.btn-arrow {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s ease;
+
+}
+
+.btn-gradient:hover .btn-arrow {
+    transform: translateY(5px);
+
+}
+
+
