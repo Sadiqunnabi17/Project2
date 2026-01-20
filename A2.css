@@ -315,3 +315,79 @@ section h2 {
 .card.exclusive { grid-area: exclusive; }
 .card.rich { grid-area: rich; }
 
+
+/* Episodes*/
+
+.featured-episodes {
+    padding: 100px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.episode h2 {
+    font: 36px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.episode-grid {
+    max-width: 1100px;
+    margin: 40px auto 0;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    
+}
+
+.episode-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+
+}
+
+.episode-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.episode-card h3 {
+    font-size: 20px;
+    margin-bottom: 10pxpx;
+}
+ 
+.episode-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.08) ;
+    margin-bottm: 16px
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #00FF88;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.duration img {
+    width: 16px;
+    color: rgba(0, 255, 136, 1);
+    text-align: left;
+}
+
+.episode-card:hover {
+    transform: translateY(-4px);
+    transition: 0.3s ease;
+    border-color: #00FF88;
+}
