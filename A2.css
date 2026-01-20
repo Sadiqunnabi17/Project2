@@ -84,7 +84,6 @@ a {
     width: 16px;
     height: 16px;
     transition: transform 0.3s ease;
-
 }
 
 .btn-gradient:hover .btn-arrow {
@@ -92,4 +91,87 @@ a {
 
 }
 
+.banner {
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+}
 
+.podcast-visual {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    
+}
+
+.podcast-circle {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    border: 5px solid rgba(248, 242, 242, 0);
+    /*backdrop-filter: blur(14px);*/
+    background: linear-gradient(
+        90deg,
+        rgb(247, 233, 63),
+        rgb(251, 9, 180),
+        rgb(145, 0, 248)
+    );
+    
+}
+
+.mic-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 34px;
+    height: auto;
+    transform: translate(-50%, -50%)
+       
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    background-color: #00FF88;
+    border-radius: 14px;
+    letter-spacing: 0.5px;
+
+}
+
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 12px 22px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    
+}
+
+.btn-primary {
+    background: linear-gradient(
+        90deg,
+        rgb(247, 233, 63),
+        rgb(251, 9, 180),
+        rgb(145, 0, 248)
+    );
+    color: white;
+}
+
+.btn-secondary {
+    border: 2px solid green;
+    background:transparent; 
+    color: green;
+}
